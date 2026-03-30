@@ -28,13 +28,6 @@ This project focuses on the implementation and empirical runtime analysis of thr
 
 ---
 
-## Important Rules
-
-* ❌ No built-in sorting functions are used
-* ✅ All algorithms are implemented manually
-
----
-
 ## Algorithms Implemented
 
 ### 1. Insertion Sort
@@ -48,18 +41,6 @@ A divide-and-conquer algorithm that recursively splits the array into halves and
 ### 3. Quick Sort
 
 An efficient sorting algorithm that selects a pivot element and partitions the array into smaller and larger elements around the pivot.
-
----
-
-## Experimental Setup
-
-Each algorithm is tested with randomly generated integer datasets of the following sizes:
-
-* 10¹ (10 elements)
-* 10² (100 elements)
-* 10³ (1,000 elements)
-* 10⁴ (10,000 elements)
-* 10⁵ (100,000 elements)
 
 ---
 
@@ -79,7 +60,7 @@ g++ main.cpp -o sort
 
 ---
 
-## 📈 Output Format
+## Output Format
 
 For each execution, the program displays:
 
@@ -91,63 +72,20 @@ For each execution, the program displays:
 
 ---
 
-## 📂 Project Files
+## Project Files
 
 * `main.cpp` → Implementation of all sorting algorithms
 * `README.md` → Project documentation and instructions
 
 ---
-
-## 📑 Expected Report (Submission Requirement)
-
-In addition to the code, a PDF report should include:
-
-### 1. Algorithm Descriptions
-
-Explain the logic and working principles of each sorting algorithm in your own words.
-
-### 2. Experimental Results
-
-Provide a table showing execution times (in seconds or microseconds) for all dataset sizes.
-
-### 3. Visual Proof
-
-Include screenshots of program output for the 10⁵ dataset clearly showing your name and student ID.
-
-### 4. Complexity Analysis
-
-| Algorithm      | Best Case  | Average Case | Worst Case |
-| -------------- | ---------- | ------------ | ---------- |
-| Insertion Sort | O(n)       | O(n²)        | O(n²)      |
-| Merge Sort     | O(n log n) | O(n log n)   | O(n log n) |
-| Quick Sort     | O(n log n) | O(n log n)   | O(n²)      |
-
 ### 5. Discussion
 
 Analyze and compare performance differences between the algorithms and explain how the observed results relate to theoretical time complexities.
 
 ---
-
-## Grading Breakdown
-
-| Component                            | Marks   |
-| ------------------------------------ | ------- |
-| Correct implementation of algorithms | 30      |
-| Runtime experiment and results       | 20      |
-| Complexity analysis                  | 20      |
-| Discussion and explanation           | 20      |
-| Code quality and GitHub submission   | 10      |
-| **Total**                            | **100** |
-
----
-
 ## Requirements
 
 * C++ Compiler (e.g., `g++`)
 * IDE or Terminal (CodeBlocks, VS Code, etc.)
 
 ---
-
-## 📌 Notes
-
-* Ensure your GitHub repository is public and prop
