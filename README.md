@@ -49,7 +49,7 @@ An efficient sorting algorithm that selects a pivot element and partitions the a
 ### Step 1: Compile the Code
 
 ```bash
-g++ main.cpp -o sort
+g++ Test.cpp -o sort
 ```
 
 ### Step 2: Run the Program
@@ -74,7 +74,7 @@ For each execution, the program displays:
 
 ## Project Files
 
-* `main.cpp` → Implementation of all sorting algorithms
+* `Test.cpp` → Implementation of all sorting algorithms
 * `README.md` → Project documentation and instructions
 
 ---
